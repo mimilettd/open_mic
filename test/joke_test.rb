@@ -28,4 +28,6 @@ class JokeTest < Minitest::Test
     joke = Joke.new({id: 1, question: "Why did the strawberry cross the road?", answer: "Because his mother was in a jam."})
     assert_equal "Because his mother was in a jam.", joke.answers
   end
+
+
 end

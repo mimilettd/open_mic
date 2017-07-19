@@ -1,9 +1,10 @@
 class Joke
   attr_reader :id,
               :question,
-              :answer
-
+              :answer,
+              :jokes
   def initialize(hash={})
+    @jokes = []
     @id = hash[:id]
     @question = hash[:question]
     @answer = hash[:answer]
