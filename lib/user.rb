@@ -15,7 +15,11 @@ class User
   end
 
   def learn(joke)
-    @joke.jokes << joke
+    @joke.jokes
+  end
+
+  def tell(name, joke)
+
   end
 
 end
